@@ -1,0 +1,39 @@
+.hero-image {
+    position: relative;
+}
+
+.hero-image .people {
+    position: absolute;
+    top: -10vh;
+    left: 15vw;
+    width: 80%;
+}
+
+.hero-image .logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    width: 100%;
+    text-align: center;
+    transform: rotate(-10deg)
+}
+
+.logo img {
+    width: 50vw;
+}
+
+.lamp-container {
+    position: absolute;
+    left: 0;
+    bottom: 250px;
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.lamp-container .lamp-obj, .lamp-container .lamp-img {
+    width: 100%;
+    overflow: visible;
+}
