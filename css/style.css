@@ -388,10 +388,11 @@ section {
 }
 
 #about {
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #000000;
 }
 
 /*---------------------------------------
@@ -571,7 +572,7 @@ section {
     TESTIMONIAL           
 -----------------------------------------*/
 .testimonial {
-  background: #ffffff;
+  background: #000;
   text-align: center; }
 
 .carousel-quote-image {
@@ -585,11 +586,11 @@ section {
   left: 0; }
 
 .carousel-name {
-  color: #656565;
+  color: #ccc;
   font-weight: 500; }
 
 .carousel-title {
-  color: #0b0c0c;
+  color: #eee;
   font-style: italic; }
 
 .carousel-indicators {

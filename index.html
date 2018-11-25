@@ -33,6 +33,12 @@
           </div>
      </section>
 
+     
+     <div class="lamp-container">
+          <object data="images/svg/lamp.svg" class="lamp-obj" type="image/svg+xml">
+               <img class="lamp-img" src="images/svg/lamp.svg" />
+          </object>
+     </div>
 
      <!-- MENU -->
      <header class="header">
@@ -51,8 +57,7 @@
                               <li class="nav-item"><a href="#home" class="smoothScroll nav-link">Home</a></li>
                               <li class="nav-item"><a href="#about" class="smoothScroll nav-link">About us</a></li>
                               <li class="nav-item"><a href="#service" class="smoothScroll nav-link">Service</a></li>
-                              <li class="nav-item"><a href="#blog" class="smoothScroll nav-link">Blog</a></li>
-                              <li class="nav-item"><a href="#projects" class="smoothScroll nav-link">Projects</a></li>
+                              <li class="nav-item"><a href="#team" class="smoothScroll nav-link">Our Team</a></li>
                               <li class="nav-item"><a href="#contact" class="smoothScroll nav-link">Contact</a></li>
                          </ul>
                     </div>
@@ -69,11 +74,6 @@
 
                     <div class="col-md-12 col-sm-12">
                          <div class="d-flex justify-content-center hero-image">
-                              <div class="lamp-container">
-                                   <object data="images/svg/lamp.svg" class="lamp-obj" type="image/svg+xml">
-                                        <img class="lamp-img" src="images/svg/lamp.svg" />
-                                   </object>
-                              </div>
                               <div class="logo">
                                    <img src="./images/logo.png" />
                               </div>
@@ -84,405 +84,107 @@
                </div>
           </div>
      </section>
-
-     <!-- ABOUT US -->
-     <section id="about">
-           <div class="container">
-                 <div class="row">
-                       <div class="col-md-12">
-                             <div class="section-title text-center">
-                                   <!--<h1>ABOUT US</h1> -->
-                              </div>
-                             <p class="text-center">
-                                   We are a collective of writers, directors, editors, motion graphic artists, pre and post–production specialists who share one common love - the love for telling a compelling story.
-                                   If you are looking for someone to help you make a film, a promo,
-                                   <br>a viral video, shorts, documentaries, TV content, practically anything under the sun that includes a visual narrative,
-                                   <br>you have reached the right place.
-                              </p>
-                       </div>
-                 </div>
-           </div>
-     </section>
 	 
    <!-- ABOUT US -->
      <section id="about">
            <div class="container">
                  <div class="row">
                        <div class="col-md-12">
-                             <div class="section-title text-center">
-                                   <h1>ABOUT US</h1>
+                              <div class="about-text">
+                                   <p>
+                                        We are a bunch of creative, super talented minds who were too bored with their regular 9 to 5 jobs and who can think beyond the ordinary. We are glad we took this decision of starting LCB. Let's Create Benchmark is simply your very own friendly agency who love to hear you out and make tailor made solutions within timelines.Our best reward is appreciation from our clients and referrals. It helps us a lot to boost our productivity and match wavelength with the top minds in the industry.
+                                   </p> 
+                                   <p>
+                                        In short feel free to bang our door and we will make sure that you don't go empty handed. 
+                                   </p>
+                                   <p>
+                                        We are always open and up for a challenging project.<br />
+                                        Feel free to reach out to us, we are just a call away.
+                                   </p>
                               </div>
-                             <p class="text-center">
-							 <br>
-                              LCB has been producing iconic, culture-changing marketing campaigns.
-							  We are a crazy team of enthusiastic and creative bunch of people
-							  who believe in create benchmark for their clients and
-							  for this they work beyond their bandwidth <br> to bring that confidence on the clients face.
-
-                              </p>
+                              <div class="about-people">
+                                   <img src="./images/svg/people2.svg" />
+                              </div>
                        </div>
                  </div>
            </div>
      </section>
 
      <!-- SERVICE -->
-     <section class="service">
-          <div class="container">
-               <div class="row">
+     <section id="service" class="service">
+          <div class="container h-100">
+               <div class="row h-100">
 
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title">
-                              <h1>SERVICES</h1>
+                    <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+                         <div class="service-wrapper">
+                              <p class="services-title">
+                                   <span class="light-text">You've got an idea</span>
+                                   <span class="heavy-text">We've got the team</span>
+                              </p>
+                              <img class="people3-img" src="./images/svg/people3.svg" />
                          </div>
                     </div>
 
-                    <div class="col-md-6 col-sm-12">
-                         <ul class="nav nav-tabs" role="tablist">
-                              <li class="nav-item"><a href="#strategy" class="nav-link active" aria-controls="strategy" role="tab" data-toggle="tab" aria-selected="true">Digital Marketing Strategy & Development</a></li>
-
-                             <!--<li class="nav-item"><a href="#development" class="nav-link"aria-controls="development" role="tab" data-toggle="tab" aria-selected="false">Development</a></li>-->
-
-                              <li class="nav-item"><a href="#creative" class="nav-link" aria-controls="creative" role="tab" data-toggle="tab" aria-selected="false">Creative</a></li>
-                         </ul>
-
-                         <div class="tab-content">
-                              <div class="tab-pane active" id="strategy" role="tabpanel" aria-labelledby="strategy-tab">
-                                   <div class="tab-pane-item">
-                                       <div class="tab-pane-item">
-                                        <h2>Social Media Marketing Services</h2>
-                                       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p> -->
-								   </div>
-								   <h2>Search Engine Optimization Services</h2>
-                                       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p> -->
+                    <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+                         <div class="accordion" id="serviceAccordion">
+                              <div class="card my-3">
+                                   <div class="card-header" id="serviceOne">
+                                   <h5 class="mb-0">
+                                        <button class="serviceButton" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                             Bringing Ideas to Life
+                                        </button>
+                                   </h5>
                                    </div>
-								      <div class="tab-pane-item">
-                                        <h2>Web Designing & Development</h2>
-                                        <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p> -->
-                                   </div>
-								   <div class="tab-pane-item">
-                                        <h2>Mobile Websites</h2>
-                                       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p> -->
-                                   </div>
-								     <div class="tab-pane-item">
-                                        <h2>App Development</h2>
-                                       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p> -->
+                              
+                                   <div id="collapseOne" class="collapse show" aria-labelledby="serviceOne" data-parent="#serviceAccordion">
+                                        <div class="card-body">
+                                             We are entrepreneurs, designers, developers, marketers, mentors, investors and most of all humans with the common  goal of achieving together anything that creates true value.
+                                        </div>
                                    </div>
                               </div>
-
-<!--
-                              <div class="tab-pane" id="development" role="tabpanel" aria-labelledby="development-tab">
-                                   <div class="tab-pane-item">
-                                        <h2>Website Development</h2>
-                                         <p>
-										 <li>SEO Focused Design</li> <br>
-                                            <li>Professional Custom Design</li><br>
-                                            <li>Optimized For Conversions</li><br>
-                                            <li>Latest Developmental Technologies</li></li></p>
-                                       
+                              <div class="card my-3">
+                                   <div class="card-header" id="serviceTwo">
+                                        <h5 class="mb-0">
+                                             <button class="serviceButton collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  Bringing Ideas to Life
+                                             </button>
+                                        </h5>
                                    </div>
-                              </div> 
-							  -->
-
-                              <div class="tab-pane" id="creative" role="tabpanel" aria-labelledby="creative-tab">
-                                   <div class="tab-pane-item">
-                                        <h2>Advertising</h2>
-                                      <p>Print, online, outdoor, broadcast</p>
-                                   </div>
-                                   <div class="tab-pane-item">
-                                        <h2>Brochure Design</h2>
-                                      <p>Corporate, Marketing, Publishing</p>
-                                   </div>
-                                   <div class="tab-pane-item">
-                                        <h2>Creative Marketing</h2>
-                                  <p>Strategy, planing, outsourced management</p>
-                                   </div>
-								     <div class="tab-pane-item">
-                                        <h2>Experiental Marketing</h2>
-                                      <p>Events, Exhibitions</p>
-                                   </div>
-                                   <div class="tab-pane-item">
-                                        <h2>Video Production</h2>
-                                      <p>Storyboard, post-production, B-Roll Shoot, motion graphics & aniamtions, short films, promos, viral videos, documentaries, TV content</p>
-                                   </div>
-                                   <div class="tab-pane-item">
-                                        <h2>Creative Marketing</h2>
-                                  <p>Strategy, planing, outsourced management</p>
+                                   <div id="collapseTwo" class="collapse" aria-labelledby="serviceTwo" data-parent="#serviceAccordion">
+                                        <div class="card-body">
+                                             We are entrepreneurs, designers, developers, marketers, mentors, investors and most of all humans with the common  goal of achieving together anything that creates true value.
+                                        </div>
                                    </div>
                               </div>
-                         </div>
-
-                    </div>
-
-                    <div class="col-md-6 col-sm-12">
-                         <div class="service-thumb">
-                              <img src="images/service-image.jpg" class="img-fluid service-image" alt="service image">                             
+                              <div class="card my-3">
+                                   <div class="card-header" id="serviceThree">
+                                        <h5 class="mb-0">
+                                             <button class="serviceButton collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                  Bringing Ideas to Life
+                                             </button>
+                                        </h5>
+                                   </div>
+                                   <div id="collapseThree" class="collapse" aria-labelledby="serviceThree" data-parent="#serviceAccordion">
+                                        <div class="card-body">
+                                             We are entrepreneurs, designers, developers, marketers, mentors, investors and most of all humans with the common  goal of achieving together anything that creates true value.
+                                        </div>
+                                   </div>
+                              </div>
                          </div>
                     </div>
 
                </div>
           </div>
      </section>
-
-
-     <!-- ABOUT -->
-     <!--
-	 <section id="about_bak">
-          <div class="container">
-                  <div class="row">
-
-                        <div class="col-md-12 col-sm-12">
-                              <div class="reachus-image">
-                                    <img src="images/about-image.jpg" class="img-fluid" alt="about image">
-                                    <div class="reachus-overlay">
-                                          <div>
-                                                <div class="section-title white-color text-center">
-                                                      <h1>Get to know about us</h1>
-                                                </div>
-                                                <div class="about-text text-center">
-                                                      <h2 class="white-color mb-4 text-center">We are agile, adaptive, and attentive.<BR>We know how to work.</h2>
-                                                      <a href="index.html#contact" class="smoothscroll section-btn btn">REACH US HERE</a>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-
-                        <div class="col-md-6 col-sm-12">
-                              <div class="row">
-                                    <div class="col-md-10 mr-auto col-sm-12">
-                                          <div class="section-title mb-4">
-                                                <h1>Get to know about us</small></h1>
-                                          </div>
-                                    </div>
-                              </div>
-
-                              <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                          <div class="about-text bg-secondary">
-                                                <h2 class="white-color mb-4">We are agile, adaptive, and attentive.<BR>We know how to work.</h2>
-                                                <a href="index.html#contact" class="smoothscroll section-btn btn">REACH US HERE</a>
-                                          </div>
-                                    </div>
-                              
-                              <div class="col-md-6 col-sm-6">
-                                    <div class="twitter-embed">
-                                          <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">And Angular is my favourite JavaScript framework. <a href="https://t.co/SJSTsj6xas">https://t.co/SJSTsj6xas</a></p>&mdash; I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/status/1059827611612921857?ref_src=twsrc%5Etfw">November 6, 2018</a></blockquote>
-                                          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                    </div>
-                              
-                              </div>
-                        </div>-->
-                  </div>
-
-            </div>
-     </section>
-
--->
-     <!-- BLOG -->
-     <section id="blog">
-          <div class="container">
-
-               <div class="col-md-6 mx-auto col-sm-12">
-                    <div class="section-title mb-5 text-center">
-                         <h1>We share design, web development and marketing tips</h1>
-                    </div>
-               </div>
-
-               <div class="row">
-                    <div class="col-md-4 col-sm-12">
-                         <div class="blog">
-                              <img src="images/blog-image01.jpg" class="img-fluid" alt="blog image">
-                              <div class="blog-item blog-item--info">
-                                   <span class="blog-category">Marketing</span>
-
-                                   <h2 class="blog-title"><a href="https://www.meltwater.com/in/blog/tips-from-the-top-indias-best-marketing-campaigns/"target=blank" class="blog-link">India’s Best Marketing Campaigns</a></h2>
-                                   <p>Great marketing campaigns make customers feel like they’re part of a family, not just another sale.</p>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="blog">
-                              <div class="blog-item blog-item--info">
-                                   <span class="blog-category bg-secondary">Digital</span>
-
-                                   <h2 class="blog-title"><a href="https://digitalready.co/blog/the-top-10-digital-marketing-campaigns-from-india"target=blank" class="blog-link">Top 10 Digital Marketing Campaigns</a></h2>
-                                   <p>A digital marketing campaign is known as the online marketing effort forwarded by a company or brand to drive traffic, leads, revenue, conversions, and engagement.</p>
-                              </div>
-                         </div>
-
-                         <div class="blog">
-                              <div class="blog-item blog-item--video">
-                                   <img src="images/blog-image02.jpg" class="img-fluid" alt="blog image">
-                                   <a href="index.html#" class="video-play fa fa-youtube-play bg-danger"></a>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="blog">
-                              <img src="images/blog-image03.jpg" class="img-fluid" alt="blog image">
-                              <div class="blog-item blog-item--overlay">
-                                   <span class="blog-category bg-primary">Inspiration</span>
-
-                                   <h2 class="blog-title"><a href="http://www.jencarrington.com/blog/2014/10/16/10-awesome-creative-blogs-you-should-read"target=blank" class="blog-link">Web typography: Define early, design quickly</a></h2>
-                                   <p>Whether building a product from scratch or doing a simple redesign, it's important that our development work happens in the background.</p>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-                     
-          </div>
-     </section>   
-
-
-     <!-- PROJECTS -->
-     <section id="projects">
-          <div class="container-fluid">
-               <div class="row">
-                    
-                    <div class="col-md-6 mx-auto col-sm-12">
-                         <div class="section-title mb-5 text-center">
-                              <h1>Branding, Graphic design, Websites and 
-                              ecommerce and more</h1>
-                         </div>
-                    </div>
-
-                    <div class="owl-carousel owl-theme projects-slide">
-                         <div class="item">
-                              <div class="projects-thumb">
-                                   <a href="videos/Paisa.mp4" class="projects-link image-popup" title="Glass Polo">
-                                          <video class="img-fluid projects-image">
-                                                <source src="./videos/Paisa.mp4" type="video/mp4">
-                                              Your browser does not support the video tag.
-                                          </video>
-                                          <div class="projects-info">
-                                                <div class="projects-icon">
-                                                      <i class="fa fa-image"></i>
-                                                </div>
-                                                <div class="projects-item">
-                                                      <h2 class="projects-title">Dummy Content</h2>
-                                                      <p class="projects-des">Dummy Content</p>
-                                                </div>
-                                          </div>
-                                   </a>
-                              </div>
-                         </div>
-
-                         <div class="item">
-                              <div class="projects-thumb">
-                                   <a href="images/projects-image02.jpg" class="projects-link image-popup" title="Beach">
-                                        <img src="images/projects-image02.jpg" class="img-fluid projects-image" alt="projects image">
-
-                                        <div class="projects-info">
-                                             <div class="projects-icon">
-                                                  <i class="fa fa-image"></i>
-                                             </div>
-                                             <div class="projects-item">
-                                                  <h2 class="projects-title">Dummy Content</h2>
-                                                  <p class="projects-des">Dummy Content</p>
-                                             </div>
-                                        </div>
-                                   </a>
-                              </div>
-                         </div>
-
-                         <div class="item">
-                              <div class="projects-thumb">
-                                   <a href="images/projects-image03.jpg" class="projects-link image-popup" title="Apple Watch">
-                                        <img src="images/projects-image03.jpg" class="img-fluid projects-image" alt="projects image">
-
-                                        <div class="projects-info">
-                                             <div class="projects-icon">
-                                                  <i class="fa fa-image"></i>
-                                             </div>
-                                             <div class="projects-item">
-                                                  <h2 class="projects-title">Dummy Content</h2>
-                                                  <p class="projects-des">Dummy Content</p>
-                                             </div>
-                                        </div>
-                                   </a>
-                              </div>
-                         </div>
-
-                         <div class="item">
-                              <div class="projects-thumb">
-                                   <a href="images/projects-image04.jpg" class="projects-link image-popup" title="Beauty">
-                                        <img src="images/projects-image04.jpg" class="img-fluid projects-image" alt="projects image">
-
-                                        <div class="projects-info">
-                                             <div class="projects-icon">
-                                                  <i class="fa fa-image"></i>
-                                             </div>
-                                             <div class="projects-item">
-                                                  <h2 class="projects-title">Dummy Content</h2>
-                                                  <p class="projects-des">
-                                                  Dummy Content
-                                                  </p>
-                                             </div>
-                                        </div>
-                                   </a>
-                              </div>
-                         </div>
-
-                         <div class="item">
-                              <div class="projects-thumb">
-                                   <a href="images/projects-image05.jpg" class="projects-link image-popup" title="Music">
-                                        <img src="images/projects-image05.jpg" class="img-fluid projects-image" alt="projects image">
-
-                                        <div class="projects-info">
-                                             <div class="projects-icon">
-                                                  <i class="fa fa-image"></i>
-                                             </div>
-                                             <div class="projects-item">
-                                                  <h2 class="projects-title">Dummy Content</h2>
-                                                  <p class="projects-des">
-                                                  Dummy Content
-                                                  </p>
-                                             </div>
-                                        </div>
-                                   </a>
-                              </div>
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section>       
 
      <!-- TEAM -->
      <section id="team">
-           <div class="container">
+           <div class="container h-100">
                  <div class="section-title">
-                       <h1 class="text-center">OUR TEAM</h1>
+                       <h1 class="text-center white-color">OUR TEAM</h1>
                  </div>
                  <div class="row">
-                       <div class="col-sm-3 mt-3 pt-3">
-                              <div class="team_member_img">
-
-                                    <div class="team_img" style="background-image: url(http://monni.fragrancetheme.com/wp-content/uploads/2018/08/csco-demo-image-018-1280x860.jpg);">
-                                    </div>
-                                    <div class="team_inner">
-                                          <h4>Alex Jhonson</h4>
-                                          <p class="white-color team_post">CEO Founder</p>
-                                          <div class="team_info">
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-facebook-f"></i></a>
-                                                <a href="" style="display: none;">
-                                                      <i class="fa fa-dribbble"></i>
-                                                </a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="" style="display: none;">
-                                                      <i class="fa fa-instagram"></i>
-                                                </a>
-                                                <a href="" style="display: none;">
-                                                      <i class="fa fa-skype"></i>
-                                                </a>
-                                          </div>
-                                    </div>
-                              </div>
-                       </div>
-                       <div class="col-sm-3 mt-3 pt-3">
+                       <div class="col-sm-4 col-6 mt-3 pt-3">
                               <div class="team_member_img">
                                     <div class="team_img" style="background-image: url(http://monni.fragrancetheme.com/wp-content/uploads/2018/08/csco-demo-image-018-1280x860.jpg);">
                                     </div>
@@ -506,7 +208,7 @@
                                     </div>
                               </div>
                        </div>
-                       <div class="col-sm-3 mt-3 pt-3">
+                       <div class="col-sm-4 col-6 mt-3 pt-3">
                               <div class="team_member_img">
                                     <div class="team_img" style="background-image: url(http://monni.fragrancetheme.com/wp-content/uploads/2018/08/csco-demo-image-018-1280x860.jpg);">
                                     </div>
@@ -530,7 +232,7 @@
                                     </div>
                               </div>
                        </div>
-                       <div class="col-sm-3 mt-3 pt-3">
+                       <div class="col-sm-4 col-6 mt-3 pt-3">
                               <div class="team_member_img">
                                     <div class="team_img" style="background-image: url(http://monni.fragrancetheme.com/wp-content/uploads/2018/08/csco-demo-image-018-1280x860.jpg);">
                                     </div>
@@ -554,10 +256,7 @@
                                     </div>
                               </div>
                        </div>
-                 </div>
-                 
-                 <div class="row">
-                        <div class="col-sm-3 mt-3 pt-3">
+                        <div class="col-sm-4 col-6 mt-3 pt-3">
                                <div class="team_member_img">
                                      <div class="team_img" style="background-image: url(http://monni.fragrancetheme.com/wp-content/uploads/2018/08/csco-demo-image-018-1280x860.jpg);">
                                      </div>
@@ -581,31 +280,7 @@
                                      </div>
                                </div>
                         </div>
-                        <div class="col-sm-3 mt-3 pt-3">
-                               <div class="team_member_img">
-                                     <div class="team_img" style="background-image: url(http://monni.fragrancetheme.com/wp-content/uploads/2018/08/csco-demo-image-018-1280x860.jpg);">
-                                     </div>
-                                     <div class="team_inner">
-                                           <h4>Alex Jhonson</h4>
-                                           <p class="white-color team_post">CEO Founder</p>
-                                           <div class="team_info">
-                                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                                 <a href="#"><i class="fa fa-facebook-f"></i></a>
-                                                 <a href="" style="display: none;">
-                                                       <i class="fa fa-dribbble"></i>
-                                                 </a>
-                                                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                 <a href="" style="display: none;">
-                                                       <i class="fa fa-instagram"></i>
-                                                 </a>
-                                                 <a href="" style="display: none;">
-                                                       <i class="fa fa-skype"></i>
-                                                 </a>
-                                           </div>
-                                     </div>
-                               </div>
-                        </div>
-                        <div class="col-sm-3 mt-3 pt-3">
+                        <div class="col-sm-4 col-6 mt-3 pt-3">
                               <div class="team_member_img">
                                     <div class="team_img" style="background-image: url(http://monni.fragrancetheme.com/wp-content/uploads/2018/08/csco-demo-image-018-1280x860.jpg);">
                                     </div>
@@ -629,7 +304,7 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-sm-3 mt-3 pt-3">
+                        <div class="col-sm-4 col-6 mt-3 pt-3">
                               <div class="team_member_img">
                                     <div class="team_img" style="background-image: url(http://monni.fragrancetheme.com/wp-content/uploads/2018/08/csco-demo-image-018-1280x860.jpg);">
                                     </div>
@@ -710,10 +385,6 @@
                     
                     <!-- CAROUSEL -->
                     <div id="testimonial-carousel" class="carousel slide mx-auto col-md-7" data-ride="carousel">
-
-                         <div class="carousel-quote">
-                              <img src="images/quote.svg" class="carousel-quote-image" alt="carousel quote">
-                         </div>
 
                          <div class="carousel-inner">
                               <div class="carousel-item active">
@@ -817,7 +488,6 @@
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
      <script src="js/bootstrap.min.js"></script>
-     <script src="js/jQuery.headroom.js"></script>
      <script src="js/typed.js"></script>
      <script src="js/typed-options.js"></script>
      <script src="js/jquery.magnific-popup.min.js"></script>
