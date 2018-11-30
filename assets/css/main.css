@@ -853,8 +853,27 @@ blockquote:not(:last-child) {
 .entry .entry__overlay .entry__overlay__content[data-pos="bottom"] {
   vertical-align: bottom;
 }
-.entry .entry__overlay .entry__overlay__content .title {
+.entry .title {
   display: block;
+  position: relative;
+  height: 100%;
+  right: 0;
+  bottom: 50px;
+  left: 50px;
+  font-family: 'Cardo';
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.entry .title .title-text {
+  position: absolute;
+  bottom: 0;
+}
+
+.entry .entry__overlay .entry__overlay__content .hover-title {
+  display: none;
   position: relative;
   font-family: 'Cardo';
   font-size: 22px;
@@ -884,11 +903,21 @@ blockquote:not(:last-child) {
   opacity: 1;
   visibility: visible;
 }
-.entry:hover .entry__overlay .entry__overlay__content .title,
+.entry:hover .title {
+  top: 0;
+  display: none;
+}
 .entry:hover .entry__overlay .entry__overlay__content .subtitle {
   top: 0;
   opacity: 1;
 }
+
+.entry:hover .entry__overlay .entry__overlay__content .hover-title {
+  top: 0;
+  opacity: 1;
+  display: block;
+}
+
 @media (max-width: 600px) {
   .entry .entry__overlay {
     display: none;
