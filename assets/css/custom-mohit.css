@@ -1,0 +1,47 @@
+/********************
+*   Client Slider   *
+********************/
+
+.clients {
+    padding-top: 100px;
+}
+
+.client-slider .item {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-bg{
+    background: #fff;
+    color: #000
+}
+
+.owl-item .black-bg {
+    background: #aaa;
+    color: #000 ;
+}
+
+/********************
+*  Responsive Logo  *
+********************/
+
+.main-logo img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    transition: max-width 0.5s ease-in;
+}
+
+@media only screen and (max-width: 420px) {
+    .main-logo img {
+        max-width: 220px;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 512px) {
+    .main-logo img {
+        max-width: 300px;
+    }
+}

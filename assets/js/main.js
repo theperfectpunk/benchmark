@@ -8,6 +8,7 @@
 
 	main_nav();
 	heros();
+	clients();
 	skills();
 	blog();
 	shortcodes();
@@ -111,6 +112,20 @@
 				$(this).css('height', hh);
 			}
 		});
+	}
+
+	// clients
+	// -------------------
+
+	function clients() {
+		$('.nav-scroll').each(function () {
+			$(this).on("click", function(event) {
+				event.preventDefault();
+				var targetId = this.getAttribute('href').split('#')[1]
+				var targetElement = document.getElementById(targetId);
+				targetElement.scrollIntoView({behavior: 'smooth'});
+			})
+		})
 	}
 
 
@@ -288,6 +303,23 @@
 				navText: ['', '']
 			});
 		});
+
+		$('.client-slider').owlCarousel({
+			loop:true,
+			nav:false,
+			autoplay:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:3
+				},
+				1000:{
+					items:5
+				}
+			}
+		})
 
 		// back2top
 		win.on('scroll', function() {
